@@ -1,0 +1,16 @@
+{
+  "default_topic": "electrical-engineering",
+  "topics": {
+    "electrical-engineering": {
+      "name": "Electrical Engineering",
+      "description": "Control systems, signal processing, power electronics, robotics and hardware people have built.",
+      "categories": [
+        "eess.SY",
+        "eess.SP",
+        "cs.RO",
+        "cs.AR",
+        "physics.app-ph"
+      ]
+    }
+  }
+}

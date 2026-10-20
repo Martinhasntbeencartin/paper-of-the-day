@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-20",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.13402v1",
+      "title": "Tri-Hybrid SWIPT with Reconfigurable Parasitic Antennas",
+      "authors": [
+        "Thien Duc Hua",
+        "Mohammadali Mohammadi",
+        "Hien Quoc Ngo",
+        "Michail Matthaiou"
+      ],
+      "published": "2026-10-09",
+      "summary": "We propose a coupling-aware tri-hybrid precoding architecture for simultaneous wireless information and power transfer (SWIPT) using reconfigurable parasitic antennas. By integrating multiport network theory and information theory, we develop a third precoding layer that explicitly accounts for mutual coupling and reactive energy storage within the antenna domain. To efficiently optimize this architecture, we propose a low-complexity tri-hybrid solution comprising coordinate descent (CD) for parasitic reactive load optimization, a singular value decomposition (SVD)-based analog precoder, and a protective partial zero-forcing (PPZF) digital precoder. Numerical results demonstrate that the transmit array introduces impedance mismatch that reduces the real power accepted by the antenna array. Moreover, the proposed tri-hybrid architecture significantly outperforms hybrid precoding by constructively exploiting the coupling effects, yielding substantial gains in spectral efficiency (SE) and sum non-linear harvested energy (NLHE) at a fraction of the hardware cost.",
+      "url": "http://arxiv.org/abs/2610.13402v1",
+      "pdf": "https://arxiv.org/pdf/2610.13402v1",
+      "categories": [
+        "eess.SP",
+        "cs.IT"
+      ]
+    }
+  }
+]
