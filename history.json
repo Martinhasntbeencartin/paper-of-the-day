@@ -72,5 +72,26 @@
         "cs.CV"
       ]
     }
+  },
+  {
+    "date": "2026-10-23",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.30671v1",
+      "title": "Co^2Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration",
+      "authors": [
+        "Yi Loo",
+        "Siddhant Shrivastava",
+        "Minh Long Pham",
+        "Malika Meghjani"
+      ],
+      "published": "2026-10-22",
+      "summary": "Visual Language Action (VLA) models are designed to be generalist robot models that can be implemented across embodiments, tasks and environments. However, their ability to collaborate with other robots and humans remains underexplored. In this work, we propose a framework to automate the generation of multi-robot collaborative data for decentralized VLA training without requiring human teleoperation. Our framework first utilizes a decentralized collaborative planning approach to generate multi-robot collaborative robot plans in the form of an executable function. We then utilize the collaborative plan to produce collaborative demonstration data to finetune VLA models in a decentralized manner. We show that our approach produces demonstration data that when used to finetune VLA models on decentralized collaboration tasks matches the task performance of VLA models finetuned on human-teleoperated collaborative data.",
+      "url": "http://arxiv.org/abs/2610.30671v1",
+      "pdf": "https://arxiv.org/pdf/2610.30671v1",
+      "categories": [
+        "cs.RO"
+      ]
+    }
   }
 ]
