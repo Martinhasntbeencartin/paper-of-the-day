@@ -93,5 +93,29 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-10-24",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.15949v1",
+      "title": "Distributed Observation Scheduling and Sensor Fusion For Large Agile Constellations",
+      "authors": [
+        "Nicholas Niziolek",
+        "Ryan Draves",
+        "Nolan Ales",
+        "Nolan Stevenson",
+        "Eli Jones",
+        "Eric Frew",
+        "Nisar Ahmed"
+      ],
+      "published": "2026-10-11",
+      "summary": "With the rapid increase in interest towards large scale earth observing satellite constellations, the problem of properly commanding and utilizing these systems has become increasingly relevant. This work focuses on a complete distributed approach to this problem, incorporating an observation task allocation and scheduling algorithm in addition to a sensor data fusion algorithm for end-to-end target coverage and processing. Observation task allocation and scheduling is performed in this work through the combination of the bid warped consensus based bundle algorithm (BWCBBA) and a lightweight observation scheduler for bid scoring. This method produces a unique mapping of tasks to command agents when allowed to iterate sufficiently. The approach to distributed data fusion in this work occurs primarily through an ownership model in which one satellite takes ownership of a system track in the constellation. After local information is shared between the sensing nodes to create the system tracks, the dedicated fusion nodes assume ownership for further information fusion and track information is disseminated throughout the constellation for data association. This paper analyzes the performance of these two algorithms over a set of increasingly decentralized architectures to highlight the performance losses compared to more traditional centralized methods.",
+      "url": "http://arxiv.org/abs/2610.15949v1",
+      "pdf": "https://arxiv.org/pdf/2610.15949v1",
+      "categories": [
+        "eess.SY"
+      ]
+    }
   }
 ]
