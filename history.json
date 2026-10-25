@@ -117,5 +117,25 @@
         "eess.SY"
       ]
     }
+  },
+  {
+    "date": "2026-10-25",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.29953v1",
+      "title": "A Plantwide Simulation Library for Control-Oriented Design: Analytical and Data-driven Use Cases",
+      "authors": [
+        "Kyle Territo",
+        "Luis A. Briceno-Mena",
+        "Jose A. Romagnoli"
+      ],
+      "published": "2026-10-21",
+      "summary": "Control structures and operability indices for plantwide processes are developed and compared on fixed simulated flowsheets, and the configuration of a study is rarely reported in a form that another group can reproduce. In this contribution, plantbench, a library of plantwide process simulations in which the design, the controller tuning and the instrumentation of a plant are declared as hashed plain-data configurations, is presented. On a heat-integrated reactor--separator--recycle plant with an open-loop unstable reactor, a heuristic plantwide control design prices four heat-exchanger networks (HENs) by the least damping ratio of the linearized closed loop, and 2016 closed-loop runs over networks, tuning, analyzer deadtime and upsets test that ranking. Results show that the damping ratio orders the networks as the runs do with the network that recovers the most heat reaching 0.013 against 0.157 for the selected one and cycling under a throughput increase, but that it is a weak detector of which operation will oscillate. At the recall of a random forest on the first 100 min after an upset, 60 of 82 limit cycles, a damping-ratio threshold raises 173 false alarms against 5. The integral time of the temperature loop, to which the damping ratio is nearly insensitive, decides in part whether the plant holds an operating point.",
+      "url": "http://arxiv.org/abs/2610.29953v1",
+      "pdf": "https://arxiv.org/pdf/2610.29953v1",
+      "categories": [
+        "eess.SY"
+      ]
+    }
   }
 ]
