@@ -137,5 +137,26 @@
         "eess.SY"
       ]
     }
+  },
+  {
+    "date": "2026-10-26",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.29466v1",
+      "title": "Approximate Matrix Multiplication through Joint Leverage Score Sampling",
+      "authors": [
+        "Neophytos Charalambides",
+        "Mert Pilanci",
+        "Alfred O. Hero"
+      ],
+      "published": "2026-10-21",
+      "summary": "In this paper, we investigate approximate matrix multiplication through random sampling. Specifically, we propose using a non-uniform sampling distribution constructed from the leverage scores of the two matrices, and characterize the associated approximation error in terms of the matrix spectral norm; which is well-known to better characterize the downstream error when the matrix product operator is applied to an input vector. We provide the probability error bounds for the proposed algorithm are also given, and discuss connections to data-oblivious approximate matrix multiplication, and graph sparsification algorithms.",
+      "url": "http://arxiv.org/abs/2610.29466v1",
+      "pdf": "https://arxiv.org/pdf/2610.29466v1",
+      "categories": [
+        "math.NA",
+        "eess.SP"
+      ]
+    }
   }
 ]
