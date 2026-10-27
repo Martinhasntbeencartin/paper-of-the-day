@@ -158,5 +158,26 @@
         "eess.SP"
       ]
     }
+  },
+  {
+    "date": "2026-10-27",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.29535v1",
+      "title": "Large-size multivariate scale-free texture generation from small-size learning sets with self-attention Wasserstein-GAN",
+      "authors": [
+        "Jhonatan Ancco Cerda",
+        "Kinan Abbas",
+        "Stéphane G. Roux",
+        "Patrice Abry"
+      ],
+      "published": "2026-10-21",
+      "summary": "Multivariate scale-free texture images are nowadays central in numerous modern applications very different in nature. A common challenging issue consists of being able to generate such multivariate textures at any arbitrary size, from a learning set of (possibly much) smaller size. Parametric models often turn out to be too restrictive for the generation of realistic textures, thus prompting neural network training-based generation. While several neural network approaches propose generation at sizes larger than training, they do not explicitly assess the quality of the generation by quantifying how well multiscale or scale-free statistics in textures are reproduced and rather rely on perceptual assessment. The present work combines convolutional Wasserstein-GAN architectures with self-attention layers to generate textures of arbitrary size while focusing on reproducing multiscale statistics, without coding a model into the loss function. The relevance of using a self-attention layer is studied. Quantitative assessment conducted on multifractal textures, representative of a broad class of multiscale textures, over ten independent trainings shows that the proposed architecture is able to generate textures with accurate statistics for sizes $8 \\times 8$ larger than the originals. The results show that placing self-attention in the critic provides the most consistent performance across output sizes.",
+      "url": "http://arxiv.org/abs/2610.29535v1",
+      "pdf": "https://arxiv.org/pdf/2610.29535v1",
+      "categories": [
+        "eess.SP"
+      ]
+    }
   }
 ]
