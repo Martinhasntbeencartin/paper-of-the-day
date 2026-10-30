@@ -220,5 +220,24 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-10-30",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.29674v2",
+      "title": "From Acceptance and Avoidance to Affective Viscosity: Designing Social Agents Intermediating in Human Relationships",
+      "authors": [
+        "Tomoko Yonezawa"
+      ],
+      "published": "2026-10-21",
+      "summary": "As social agents become embedded in human relationships, they are expected not only to provide smooth assistance but also to handle rejection, discomfort, jealousy, persistence, and other forms of social tension. This paper connects two research directions: acceptance and avoidance in response to an agent's gaze, approach, and contact, and affective viscosity as a model of how negative affect accumulates, persists, is suppressed, and is expressed over time. We argue that avoidance should not be treated merely as a failure of interaction, but as a relational signal that indicates boundaries between humans and agents. Building on this view, affective viscosity provides a design perspective for agents that maintain, suppress, or express negative states depending on social relationships and interaction histories. We discuss several ongoing design cases, including triadic jealousy, discomfort suppression, patience timing, and spatiotemporal stickiness, and consider how these cases lead to broader questions of blame and accountable intervention. Rather than designing agents as simple scapegoats or artificial villains, we ask how agents can intermediate in problematic social situations while making their intervention traceable, limited, contestable, and repairable.",
+      "url": "http://arxiv.org/abs/2610.29674v2",
+      "pdf": "https://arxiv.org/pdf/2610.29674v2",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ]
+    }
   }
 ]
