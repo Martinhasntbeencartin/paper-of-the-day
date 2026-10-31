@@ -239,5 +239,32 @@
         "cs.HC"
       ]
     }
+  },
+  {
+    "date": "2026-10-31",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.28459v2",
+      "title": "A Hierarchical Space-Ground Collaborative Network: Architecture Design and Deployment",
+      "authors": [
+        "Yunxin Geng",
+        "Shaopeng Feng",
+        "Xuekun Hao",
+        "Zijian Guo",
+        "Shengfeng Wang",
+        "Rui Ding",
+        "Kan Zheng",
+        "Zhiqing Wei",
+        "Weiwei Jiang",
+        "Zhiyong Feng"
+      ],
+      "published": "2026-10-20",
+      "summary": "The sixth-generation (6G) landscape demands a profound architectural evolution toward a unified, collaborative ecosystem that integrates satellite and terrestrial segments to provide ubiquitous global connectivity. Nevertheless, conventional independent management paradigms are increasingly challenged by the profound spatiotemporal nonstationarity of low-Earth orbit (LEO) channels and the volatile demands of massive heterogeneous services. To address these challenges, this study focuses on the architectural design of space-ground integrated networks (SGINs) and investigates elastic deployment strategies tailored to heterogeneous 6G service requirements. We first review the development trends in SGIN and then summarize typical application scenarios into two categories, along with their associated challenges and constraints. After that, a hierarchical space-ground collaborative network (SGCN) architecture is proposed to support achieving larger network capability, extensive continuous coverage, and enhanced spectral efficiency, which is evaluated through three representative scenarios with progressive baselines. Subsequently, a service-aware deployment strategy is introduced to further establish the engineering feasibility of the proposed architecture.",
+      "url": "http://arxiv.org/abs/2610.28459v2",
+      "pdf": "https://arxiv.org/pdf/2610.28459v2",
+      "categories": [
+        "eess.SP"
+      ]
+    }
   }
 ]
