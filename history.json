@@ -266,5 +266,27 @@
         "eess.SP"
       ]
     }
+  },
+  {
+    "date": "2026-11-01",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.39005v1",
+      "title": "Self-Supervised Doppler-Guided RF Odometry",
+      "authors": [
+        "Kunzhe Song",
+        "Jialuo Du",
+        "Jingkai Lin",
+        "Huacheng Zeng"
+      ],
+      "published": "2026-10-28",
+      "summary": "Radio-frequency (RF) sensing enables robot ego-motion estimation in darkness, smoke, and fog, yet RF odometry remains challenging because multipath and moving reflectors make cross-frame matching highly ambiguous. Existing methods often rely on auxiliary inertial sensors or ground-truth pose supervision. We present RFWalk, a self-supervised, RF-only odometry framework that models dense correspondences across range-azimuth frames as random walks on a space-time graph and learns them from unlabeled sequences through temporal cycle consistency. To rule out correspondences that are cycle-consistent but physically implausible, we introduce a Doppler consistency loss that constrains correspondence-induced motion using radial velocity measured by the RF sensor itself. Ego-motion is then recovered through robust $\\mathrm{SE}(2)$ registration that suppresses uncertain correspondences and those arising from independently moving objects. Without pose labels or auxiliary sensors, RFWalk remains competitive with supervised baselines in static scenes and reduces absolute trajectory error by 58% in dynamic scenes with moving pedestrians.",
+      "url": "http://arxiv.org/abs/2610.39005v1",
+      "pdf": "https://arxiv.org/pdf/2610.39005v1",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ]
+    }
   }
 ]
