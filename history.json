@@ -332,5 +332,24 @@
         "cs.DC"
       ]
     }
+  },
+  {
+    "date": "2026-11-04",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.34581v1",
+      "title": "Uniform observability criteria for linear time-varying systems",
+      "authors": [
+        "Soulaimane Berkane"
+      ],
+      "published": "2026-10-25",
+      "summary": "Verifying uniform observability of a linear time-varying system generally requires its state-transition matrix. This paper develops necessary and sufficient conditions that can be checked directly from the coefficient matrices for two classes of systems. For constant dynamics with real spectrum and a measurable, essentially bounded output matrix, uniform observability is equivalent to persistent excitation of the output matrix on each eigenspace. An equivalent condition requires persistent excitation of the Kalman observability stack. The second result concerns cascades with a constant observable measured subsystem coupled to a hidden state. Under uniform regularity assumptions, linear combinations of output derivatives eliminate the measured state and yield an equivalent observability test for the hidden dynamics. When those dynamics have real spectrum, the test reduces to excitation on each eigenspace intersected with the kernel of the direct measurements. An application to arbitrary-order integrator chains with measurements of ranges to fixed anchors gives an exact excitation condition for the associated lifted LTV system. A second application treats direct hidden measurements and compares the condition with existing sufficient tests.",
+      "url": "http://arxiv.org/abs/2610.34581v1",
+      "pdf": "https://arxiv.org/pdf/2610.34581v1",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ]
+    }
   }
 ]
