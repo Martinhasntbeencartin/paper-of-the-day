@@ -351,5 +351,24 @@
         "eess.SY"
       ]
     }
+  },
+  {
+    "date": "2026-11-05",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.01476v1",
+      "title": "Low-Latency Joint Source-Channel Coding with Multiple Constant Curvature Curves",
+      "authors": [
+        "Anders M. Buvarp",
+        "Stefan Werner"
+      ],
+      "published": "2026-11-01",
+      "summary": "We propose constant-curvature curve multicode (C3M), a multi-branch extension of constant-curvature curve tube (C3T) analog joint source-channel coding for one-shot transmission over fixed isotropic AWGN channels. Instead of mapping a scalar source to a single curve on the power sphere, C3M partitions the source interval across a union of constant-speed branch curves in even-dimensional Euclidean space. This construction increases the available geometric degrees of freedom while preserving a low block length analog encoding structure. We derive the induced mixture output distribution, posterior representation, MAP and MMSE estimators, and mutual-information decomposition into branch-identification and along-curve components. We then introduce geometry- and classification-aware branch allocation rules based on tube density, curve length, and branch-classification reliability. The resulting design procedure fixes the optimal C3T curve as a starting branch and sequentially selects additional branches, thereby reducing the combinatorial cost of exhaustive multi-curve search. We use NORM-inspired branch-conditioned spectral decoders based on Fourier-feature lifting of the received ambient vector. Numerical experiments in four and six dimensions show that adding candidate branch curves improves the finite-dimensional end-to-end signal-to-distortion ratio, with selected two- and three-candidate C3M systems outperforming the one-curve baseline at +10 dB SNR. The results show that multi-curve analog mappings provide a practical finite-dimensional design route for low block length joint source-channel coding.",
+      "url": "http://arxiv.org/abs/2611.01476v1",
+      "pdf": "https://arxiv.org/pdf/2611.01476v1",
+      "categories": [
+        "eess.SP"
+      ]
+    }
   }
 ]
