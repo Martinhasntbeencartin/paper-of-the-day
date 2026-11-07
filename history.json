@@ -392,5 +392,26 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-11-07",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.08101v1",
+      "title": "On the Minimal Controllability of Boolean Networks With $k$-Regular Dependency Graphs",
+      "authors": [
+        "Christopher H. Fok",
+        "Chi-Wing Wong",
+        "Wai-Ki Ching"
+      ],
+      "published": "2026-11-05",
+      "summary": "Boolean networks (BNs) are widely used to model gene regulatory networks and other biological systems. In this paper, we investigate the minimal controllability problem for BNs subject to degree constraints. We first establish three new best-case upper bounds for XOR-BNs whose dependency graphs are $k$-regular. We then introduce classes of BNs that are invariant under cyclically partite transformation (CPT-invariant) and prove theorems connecting BN controllability with the surjectivity of vector-valued Boolean functions. Finally, by combining an analysis of this surjectivity with a probabilistic argument, we derive a new general lower bound on the minimum number of control nodes required for majority-type threshold BNs with $(2k+1)$-regular dependency graphs.",
+      "url": "http://arxiv.org/abs/2611.08101v1",
+      "pdf": "https://arxiv.org/pdf/2611.08101v1",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ]
+    }
   }
 ]
