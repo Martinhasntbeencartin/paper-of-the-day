@@ -413,5 +413,27 @@
         "math.OC"
       ]
     }
+  },
+  {
+    "date": "2026-11-08",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.02140v1",
+      "title": "History-Aware Force Sensing and Tunable Stiffness in a Pneumatic Kresling Origami Cell",
+      "authors": [
+        "Hengyi Zhou",
+        "Jiaqi Wang",
+        "Yilin Ma",
+        "Dezhong Tong",
+        "Xiaonan Huang"
+      ],
+      "published": "2026-11-01",
+      "summary": "Mechanical hysteresis and pneumatic loading complicate contact force estimation from deformation measurements in soft robots. This work presents a 3D-printed polyether block amide (PEBA) Kresling cell with magnetic angular sensing that supports three operating modes: force sensing at zero gauge pressure, force sensing with tunable stiffness under gauge positive pressure, and self-sensing actuation under negative gauge pressure. A multiscale gated recurrent unit (GRU) network estimates contact force from angular histories to account for the the combined effects of geometric deformation and material response. At zero gauge pressure, the model achieves a test RMSE of 0.76~N. Positive gauge pressure approximately doubles the average axial loading stiffness at +20~kPa over the first 3~mm of compression, while pressure-specific models maintain RMSEs below 0.93~N. Under negative gauge pressure, an energy-based compensation model enables contact force estimation using the the model trained at zero gauge pressure, achieving RMSEs of 1.66--2.10~N under quasi-static conditions. These results demonstrate a compact approach to combining force feedback, tunable axial stiffness, and self-sensing actuation in soft origami systems.",
+      "url": "http://arxiv.org/abs/2611.02140v1",
+      "pdf": "https://arxiv.org/pdf/2611.02140v1",
+      "categories": [
+        "cs.RO"
+      ]
+    }
   }
 ]
