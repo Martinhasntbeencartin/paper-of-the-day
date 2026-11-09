@@ -435,5 +435,28 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-11-09",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2610.40039v1",
+      "title": "How Far Are We From On-Device VLM Inference? A Measurement Study on Edge NPUs",
+      "authors": [
+        "Huan Yang",
+        "Shiqi Jiang",
+        "Yu Mao",
+        "Chuanyue Xiong",
+        "Deyu Zhang"
+      ],
+      "published": "2026-10-29",
+      "summary": "Diverse optimizations spanning model architecture, inference runtime, and hardware acceleration have been proposed for on-device vision-language model (VLM) deployment on edge NPUs. Still, cross-layer coordination of VLM execution on edge NPUs remains largely underexplored. This paper presents an empirical measurement study across six representative VLMs, three real-world edge platforms, and ten multimodal benchmarks. Our evaluation drills down from end-to-end application-level latency and thermal traces down to low-level kernel-scale execution behaviors, challenging several widely held community assumptions. First, softmax dominates attention costs; even lookup-table-based softmax optimizations cannot eliminate pipeline bubbles that severely underutilize NPU matrix units. Second, theoretical speedups from linear attention vanish under real-NPU execution due to prohibitive tensor-rearrangement overhead. Third, no hardware backend universally dominates autoregressive decoding: attention-tensor-shaped parallelism dictates NPU efficiency and shifts the CPU-NPU performance balance. We further find task-specific Sweet Resolutions for VLMs, which deliver meaningful accuracy gains at only modest latency overhead. Complementing these findings, we provide actionable cross-layer recommendations for hardware architects, runtime developers, and model designers.",
+      "url": "http://arxiv.org/abs/2610.40039v1",
+      "pdf": "https://arxiv.org/pdf/2610.40039v1",
+      "categories": [
+        "cs.PF",
+        "cs.AR"
+      ]
+    }
   }
 ]
