@@ -458,5 +458,25 @@
         "cs.AR"
       ]
     }
+  },
+  {
+    "date": "2026-11-10",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.07734v1",
+      "title": "Data-driven current control of modular multilevel converter-based HVDC transmission system",
+      "authors": [
+        "Victor D. Reyes Dreke",
+        "Rahul Rane",
+        "Aleksandra Lekić"
+      ],
+      "published": "2026-11-05",
+      "summary": "Model-based design (MBD) is a mature framework for designing the current controllers of modular multilevel converters (MMCs) in high-voltage direct current (HVDC) transmission systems. In MBD, linear state-space models are preferred for their good trade-off between accurate dynamics prediction and simplicity. However, first-principle derivations often neglect relevant MMC dynamics, which can hinder controller performance. Data-driven (DD) methods can deliver less biased models that capture parameter uncertainties, control-loop interactions, and grid dynamics, yet they remain under-exploited for controlling MMC currents. This paper studies DD current control method based on integral Subspace Predictive Control (iSPC), synthesized directly from input--output data measured in a high fidelity real-time digital simulator (RTDS), and proposes an initial guideline outlining the main steps for its systematic application to MMC current control. The proposed iSPC is compared against state-of-the-art DD solution, and the findings are validated through simulation studies in MATLAB/Simulink.",
+      "url": "http://arxiv.org/abs/2611.07734v1",
+      "pdf": "https://arxiv.org/pdf/2611.07734v1",
+      "categories": [
+        "eess.SY"
+      ]
+    }
   }
 ]
