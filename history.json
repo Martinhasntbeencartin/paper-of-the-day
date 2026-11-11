@@ -478,5 +478,27 @@
         "eess.SY"
       ]
     }
+  },
+  {
+    "date": "2026-11-11",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.09081v1",
+      "title": "Quantum-Enhanced Classical Communications for DPMZM-based NG-PON2 Systems",
+      "authors": [
+        "Parvin Kumar",
+        "Sourav Banerjee",
+        "Neel Kanth Kundu",
+        "Umesh Sharma"
+      ],
+      "published": "2026-11-06",
+      "summary": "This paper presents a framework for integrating quantum detection techniques into a Dual-Parallel Mach-Zehnder Modulator (DPMZM)-based Next Generation Passive Optical Network 2 (NG-PON2) communication system. We present a system model for the DPMZM-based NG-PON2 quantum communication system and characterize its signal-to-noise ratio (SNR), demonstrating its superiority over conventional MZM-based systems. We analyze the performance of various quantum modulation techniques, including binary phase-shift keying, quadrature phase-shift keying, and M-ary quadrature amplitude modulation. A comprehensive analytical framework is developed to evaluate the SNR, BER, and mutual information for both classical and quantum detection schemes within the DPMZM-based NG-PON2 quantum communication system. Our simulation results show that quantum detection significantly outperforms classical detection, and the DPMZM architecture further enhances the performance over the baseline MZM architecture by improving the effective modulation efficiency and receiver sensitivity.",
+      "url": "http://arxiv.org/abs/2611.09081v1",
+      "pdf": "https://arxiv.org/pdf/2611.09081v1",
+      "categories": [
+        "quant-ph",
+        "eess.SP"
+      ]
+    }
   }
 ]
