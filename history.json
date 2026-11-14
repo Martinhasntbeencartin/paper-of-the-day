@@ -528,5 +528,27 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-11-14",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.15045v1",
+      "title": "Affine Frequency Division Multiplexing With Pre-Chirp Spreading Index Modulation: A CSI-Driven Secure Transmission Framework",
+      "authors": [
+        "Yiwei Tao",
+        "Miaowen Wen",
+        "Yao Ge",
+        "Merouane Debbah",
+        "Erdal Panayirci"
+      ],
+      "published": "2026-11-11",
+      "summary": "The flexible configurability of pre-chirp parameters in affine frequency division multiplexing (AFDM) provides new degrees of freedom for designing covert communication mechanisms. Leveraging this property, this paper proposes a covert AFDM pre-chirp spreading index modulation (IM) framework referred to as AFDM-PCS-IM, tailored for high-mobility scenarios. Specifically, an orthogonal pre-chirp parameter codebook is constructed by exploiting the tunability of the pre-chirp parameters. To enhance covertness, the legitimate channel state information (CSI) is utilized to generate controlled perturbations that encrypt the codebook, thereby tightly coupling the modulation structure with instantaneous channel characteristics. The encrypted pre-chirp codebook is then employed as an IM dimension for information transmission, where the index bits are conveyed through the selection of pre-chirp parameter sequences. Since eavesdroppers cannot obtain consistent CSI, they are unable to reconstruct the encrypted codebook and thus cannot reliably recover any useful information. Moreover, to address channel estimation errors inherent in practical communication environments, a noise-aware CSI quantizer is further introduced to improve robustness under imperfect CSI conditions. Finally, a low-complexity two-layer message passing detector with Walsh code constraints (TLMP-WC) is developed to enable efficient large-scale data detection while simultaneously enhancing the detection reliability. Simulation results demonstrate that the proposed AFDM-PCS-IM framework with the TLMP-WC detector achieves superior covertness, improved bit error rate (BER) performance, and reduced computational complexity compared with the state-of-the-art schemes.",
+      "url": "http://arxiv.org/abs/2611.15045v1",
+      "pdf": "https://arxiv.org/pdf/2611.15045v1",
+      "categories": [
+        "eess.SP"
+      ]
+    }
   }
 ]
