@@ -570,5 +570,26 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-11-16",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.08142v1",
+      "title": "Educational robotics beyond ROS: a custom library for direct transfer of Webots controllers in the Turtlebot3",
+      "authors": [
+        "Jaime P. Pérez-Moro",
+        "Alejandro Romero",
+        "Hector Quintian",
+        "Francisco Bellas"
+      ],
+      "published": "2026-11-05",
+      "summary": "Robot Operating System (ROS) is becoming a standard in robotics courses at higher education, but its installation, configuration and distributed programming model can introduce a significant entry barrier in the new landscape of AI-based master and degree studies, where many students do not have a strong informatics background. This paper presents an educational experience that enables students to program a TurtleBot3 Burger directly in Python, while preserving a direct transfer path from simulation to the physical robot. The approach is based on a custom library that mirrors the Webots API, allowing the same controller code to be executed in the simulator and on the real TurtleBot3 with minimal modification. The library provides access to the robot motors, wheel encoders, inertial sensors and LiDAR, and is complemented by scripts that automate deployment and execution on the physical platform. It was used in a master-level course on introductory autonomous vehicles, and initial student feedback suggests that the approach reduces the perceived complexity of ROS-related infrastructure and helps learners focus on algorithmic logic and real-world behaviour.",
+      "url": "http://arxiv.org/abs/2611.08142v1",
+      "pdf": "https://arxiv.org/pdf/2611.08142v1",
+      "categories": [
+        "cs.RO"
+      ]
+    }
   }
 ]
