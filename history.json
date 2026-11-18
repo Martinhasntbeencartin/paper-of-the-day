@@ -614,5 +614,23 @@
         "cs.LG"
       ]
     }
+  },
+  {
+    "date": "2026-11-18",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.08345v1",
+      "title": "Output-Feedback Integral Sliding-Mode Extremum Seeking with Super-Twisting Differentiation",
+      "authors": [
+        "Hyuntae Kim"
+      ],
+      "published": "2026-11-05",
+      "summary": "This paper develops a dither-free output-feedback extremum-seeking controller for pre-stabilized nonlinear dynamic systems with unknown steady-state performance maps. The controller uses only the measured performance, the applied parameter, and internal states. Within a local state--parameter domain, integral sliding mode enforces equality between the applied parameter rate and a prescribed nonzero search velocity after finite-time capture under bounded matched rate-channel perturbations. This motion lets a super-twisting differentiator and rate normalization recover a gradient-sign surrogate without demodulation or averaging. A ramp-corrected moving-equilibrium coordinate cancels the first-order ramp-induced plant term and yields explicit flow, reversal, recovery, and dynamic-remainder bounds. The resulting local state--parameter tube supplies the regularity needed for finite-time exact differentiation. Combined with a deadbanded hybrid relay, these results establish local practical convergence to an explicit neighborhood of the unknown optimum. An 80-state tubular-reactor benchmark and paired held-out Monte Carlo tests compare a causal sampled realization with perturbation ESC and a rate-informed super-twisting comparator. The proposed realization succeeds in all 200 held-out cases and attains the smallest upper-tail objective gap under the stated tuning protocol. A matched-rate sweep connects performance degradation to applied-rate mismatch, near-stall motion, reversal, and regularization attenuation.",
+      "url": "http://arxiv.org/abs/2611.08345v1",
+      "pdf": "https://arxiv.org/pdf/2611.08345v1",
+      "categories": [
+        "eess.SY"
+      ]
+    }
   }
 ]
