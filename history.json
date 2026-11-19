@@ -632,5 +632,25 @@
         "eess.SY"
       ]
     }
+  },
+  {
+    "date": "2026-11-19",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.18155v1",
+      "title": "Dynamic Structural Causal Models for Delay Prediction",
+      "authors": [
+        "Niloofar Mehrnia",
+        "Wilson Ayyanthole Nelson",
+        "James Gross"
+      ],
+      "published": "2026-11-13",
+      "summary": "Dynamic network key performance indicators (KPIs) such as end-to-end (E2E) delay are shaped by both contemporaneous interactions and temporal persistence. While standard predictors can forecast KPIs under a fixed regime, proactive network management requires reasoning about the effects of explicit actions (interventions) and, in time series, executing a model forward over multiple horizons. We study dynamic structural causal models (DSCMs) for E2E delay in a 5G measurement campaign, where payload and background traffic are intentionally manipulated and thus treated as do-interventions. We learn DSCM scaffolds using four time-series causal discovery methods representing score-based and constraint-based paradigms and common lag-based baselines. Using gradient-boosted decision trees, we evaluate true multi-step DSCM rollout, which recursively simulates the full system state, and a direct target-only ablation that predicts the KPI without recursive simulation. Across two held-out intervention scenarios, including high payload and 10 Mbps background traffic, we find that the inferred target parent/lag sets differ substantially across methods and that rollout behavior is strongly scenario-dependent. In particular, PCMCI+ achieves the best short-horizon rollout accuracy under the payload intervention (RMSE 2.97~ms) but exhibits pronounced horizon-dependent degradation under the background-traffic intervention (root mean squared error (RMSE) ~4.75 ms for long horizon), yielding a large positive rollout tax of up to ~0.78 ms relative to direct prediction; DyNoTEARS and VAR-based DSCMs remain comparatively stable under rollout. These results highlight that evaluating causal scaffolds only via direct prediction can be misleading, and therefore, executability under intervention and long-horizon error propagation are critical for DSCM-based KPI reasoning.",
+      "url": "http://arxiv.org/abs/2611.18155v1",
+      "pdf": "https://arxiv.org/pdf/2611.18155v1",
+      "categories": [
+        "eess.SP"
+      ]
+    }
   }
 ]
