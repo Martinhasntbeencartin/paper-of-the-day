@@ -676,5 +676,24 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-11-21",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.20696v1",
+      "title": "Conic Structure of the Cross-Entropy Loss at the Final Layer and Its Absence in Rectifier Backbones",
+      "authors": [
+        "Omer Nezih Gerek"
+      ],
+      "published": "2026-11-16",
+      "summary": "Slices of the loss along lines and planes in parameter space are widely used to visualize deep networks. They often show a single basin with nearly straight walls, which raises the question of whether such a loss is a cone rounded at its apex, or a lower envelope of several cones that meet along creases. We answer this question for softmax cross-entropy at two levels of a classifier. Over the weights of an affine final layer, the loss equals a polyhedral cone plus an offset that decreases monotonically and exponentially along every ray, towards a limit in closed form. The distance at which the asymptotic wall reaches the height of the starting point, which we call the core radius, equals the mean surprisal of the classes that the direction favours, divided by the slope of the wall. Over the parameters of a rectifier backbone, the loss along a line has a kink wherever the activation pattern of a sample changes. Using the dimension theory of semialgebraic sets, we show that, along almost every line, the samples that switch at one point share an irreducible factor of their pre-activation polynomials. Under a coprimality condition, each kink therefore carries the share of one sample among $n$, so creases comparable to the slope do not form. Measurements on ResNet-18 and ResNet-56 trained on CIFAR-10 illustrate both results, with a test that bounds the size of any crease that sampled loss values can hide.",
+      "url": "http://arxiv.org/abs/2611.20696v1",
+      "pdf": "https://arxiv.org/pdf/2611.20696v1",
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ]
+    }
   }
 ]
