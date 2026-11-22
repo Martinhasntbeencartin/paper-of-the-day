@@ -695,5 +695,23 @@
         "eess.SP"
       ]
     }
+  },
+  {
+    "date": "2026-11-22",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.25725v1",
+      "title": "On the Hamel Coefficients and the Boltzmann-Hamel Equations for the Rigid Body",
+      "authors": [
+        "Andreas Müller"
+      ],
+      "published": "2026-11-19",
+      "summary": "The Boltzmann-Hamel (BH) equations are central in the dynamics and control of nonholonomic systems described in terms of quasi-velocities. The rigid body is a classical example of such systems, and it is well-known that the BH-equations are the Newton-Euler (NE) equations when described in terms of rigid body twists as quasi-velocities. It is further known that the NE-equations are the Euler-Poincare, respectively, the reduced Euler-Lagrange equations on SE(3) when using body-fixed or spatial representation of rigid body twists. The connection between these equations are the Hamel coefficients, which are immediately identified as the structure constants of SE(3). However, an explicit coordinate-free derivation has not been presented in the literature. In this paper the Hamel coefficients for the rigid body are derived in a coordinate-free way without resorting to local coordinates describing the rigid body motion. The three most relevant choices of quasi-velocities (body-fixed, spatial, and hybrid representation of rigid body twists) are considered. The corresponding BH-equations are derived explicitly for the rotating and free floating body. Further, the Hamel equations for nonholonomically constrained rigid bodies are discussed, and demonstrated for the inhomogenous ball rolling on a plane.",
+      "url": "http://arxiv.org/abs/2611.25725v1",
+      "pdf": "https://arxiv.org/pdf/2611.25725v1",
+      "categories": [
+        "cs.RO"
+      ]
+    }
   }
 ]
