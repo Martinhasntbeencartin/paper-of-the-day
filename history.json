@@ -713,5 +713,28 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-11-23",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.13983v1",
+      "title": "Optimization-Based Path Planning for Industrial Manipulators: Experimental Validation in Additive Manufacturing",
+      "authors": [
+        "Shiva Ganesh Murali",
+        "Valentin Bhend",
+        "Deepak Ingole",
+        "Gabriele Fadini",
+        "Alisa Rupenyan"
+      ],
+      "published": "2026-11-10",
+      "summary": "Robotic additive manufacturing requires joint paths that reconcile robot feasibility with process-specific geometry. We develop an offline optimization-based path planner that combines joint-path regularity and self-collision penalties with process costs and constraints, so that a new process enters through its own reference, residuals, and tolerances. Full-path and boundary-coupled chunked optimization handle references of different lengths. Iterative Weight Tuning (IWT) determines the cost weights from the gaps between Key Performance Indicators (KPIs) and their targets. In carbon-fiber winding and robotic 3D printing, the planned paths meet the geometric tolerances and all KPI targets, and both paths are executed on a UR10e, without extrusion for printing, with joint-level tracking recorded during execution.",
+      "url": "http://arxiv.org/abs/2611.13983v1",
+      "pdf": "https://arxiv.org/pdf/2611.13983v1",
+      "categories": [
+        "cs.RO",
+        "math.OC"
+      ]
+    }
   }
 ]
