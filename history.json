@@ -736,5 +736,27 @@
         "math.OC"
       ]
     }
+  },
+  {
+    "date": "2026-11-25",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.29918v1",
+      "title": "TidyFlow: Geometry-Aware Tabletop Arrangement Generation with Human-Aligned Tidiness Evaluation",
+      "authors": [
+        "Jiahui Qian",
+        "Tiandong Wang",
+        "Shubao Fan",
+        "Chenyu Niu",
+        "Erqi Wu"
+      ],
+      "published": "2026-11-23",
+      "summary": "Generating tidy tabletop arrangements that align with human organizational preferences requires considering both functional relationships among objects and geometric constraints within limited tabletop space. We present TidyFlow, a tabletop arrangement generation framework that integrates conditional Flow Matching with topology-aware geometric refinement. We construct two tabletop arrangement datasets based on functional grouping and geometric constraints, namely General Tabletop Layouts (GTL) and Workstation Tabletop Layouts (WTL), and introduce a six-dimensional tidiness scoring function. Conditional Flow Matching is employed to learn a multimodal distribution of target arrangements conditioned on object attributes and tabletop geometry. To address geometric errors in generated layouts, we construct topology-aware refinement data based on collision and boundary-violation patterns, and employ a pair-aware attention network to iteratively refine object poses. Experiments demonstrate that, after three refinement iterations, TidyFlow improves geometric validity from 23.21% to 88.91% on GTL and from 10.58% to 57.91% on WTL. Furthermore, a human preference study demonstrates a positive correlation between the proposed tidiness scores and human rankings, achieving a Spearman correlation coefficient of 0.5543.",
+      "url": "http://arxiv.org/abs/2611.29918v1",
+      "pdf": "https://arxiv.org/pdf/2611.29918v1",
+      "categories": [
+        "cs.RO"
+      ]
+    }
   }
 ]
