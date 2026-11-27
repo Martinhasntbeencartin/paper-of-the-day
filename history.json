@@ -791,5 +791,26 @@
         "cs.RO"
       ]
     }
+  },
+  {
+    "date": "2026-11-27",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.31694v1",
+      "title": "CATWAY: Cost-sensitive agentic three-way robot decisions with calibrated language-model confidence",
+      "authors": [
+        "Erik Derner"
+      ],
+      "published": "2026-11-23",
+      "summary": "A language-model robot agent must decide whether to execute, question or refuse an instruction, and an unsafe execution costs far more than an unneeded question. No prior robot gate derives all its thresholds from error costs or acts on calibrated probabilities, and none was fitted in one domain and evaluated unchanged in another. We propose CATWAY, a cost-sensitive three-way decision gate: a loss matrix over four instruction conditions (clear, ambiguous, infeasible, unsafe) fixes execute, ask and refuse regions on the probability simplex, the question being the information-gathering step. Its probabilities fuse a ten-sample vote with graded scores of ambiguity, infeasibility and risk by logistic regression. Fitted on household instructions and frozen, CATWAY was tested on text-level decisions of three small models in-domain, in two new robot domains and on the external TRUST-NAV benchmark. At eleven generations per decision against one, it was significantly cheaper than a direct prompt, a cost-aware prompt and an unguarded agent in all 18 household comparisons (mean loss per item 0.28 against 0.57-0.83), in 9 of 18 in the new domains and in 10 of 18 on TRUST-NAV (Holm per set), and never significantly costlier. It executed none of the 142 unsafe test instructions. On a unanimous vote, the minimum-expected-loss rule reduces calibration to one loss-derived threshold, so for two of six model configurations a gate on the vote alone never executed a clear instruction, costing 0.49 per item on TRUST-NAV against CATWAY's 0.13 and 0.09; the fused estimate avoided this on every set.",
+      "url": "http://arxiv.org/abs/2611.31694v1",
+      "pdf": "https://arxiv.org/pdf/2611.31694v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    }
   }
 ]
