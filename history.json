@@ -812,5 +812,27 @@
         "cs.LG"
       ]
     }
+  },
+  {
+    "date": "2026-11-28",
+    "topic": "electrical-engineering",
+    "paper": {
+      "id": "2611.31647v1",
+      "title": "MSW: a Multi-Scale Sliced Wasserstein Distance Between Image Distributions",
+      "authors": [
+        "Youssef Haouchat",
+        "Stanislas Ducotterd",
+        "Bassam El Rawas",
+        "Michael Unser"
+      ],
+      "published": "2026-11-23",
+      "summary": "We propose the multi-scale sliced Wasserstein (MSW) distance between image distributions, which operates in pixel space and requires no trained network. MSW convolves images with a fixed bank of discrete cosine filters at several scales, pools the responses over all positions, and compares the resulting one-dimensional distributions using the Wasserstein distance. We pair MSW with an exact two-sample test that gives calibrated p-values. Most metrics compare two image sets in the latent space of a pretrained network. We show that these metrics are insensitive to simple perturbations of the images, because the latent space is nearly invariant to them. In contrast, MSW detects smaller perturbations than latent-space metrics and needs far fewer images to do so. Although it uses no learned features, it still detects semantic changes of the image distribution. Finally, MSW matches or outperforms existing Wasserstein-based metrics in our experiments.",
+      "url": "http://arxiv.org/abs/2611.31647v1",
+      "pdf": "https://arxiv.org/pdf/2611.31647v1",
+      "categories": [
+        "cs.CV",
+        "eess.SP"
+      ]
+    }
   }
 ]
